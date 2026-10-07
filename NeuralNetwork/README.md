@@ -29,11 +29,6 @@ Enter one activation code per connection between layers, so a network with N lay
 A CSV file with one sample per line. The first column is the class label (an integer from 0 to the number of output neurons minus 1) and the remaining columns are the input features. A header row is allowed. The layout matches the common CSV version of MNIST.
 
 ## Run it
-Windows and Visual Studio are required.
-
-1. Open `NeuralNetwork.sln` in Visual Studio.
-2. Press F5 to build and run.
-3. Fill in the fields and click Start.
 
 Example setup for a 784-input digit dataset:
 
