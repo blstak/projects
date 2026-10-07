@@ -16,11 +16,6 @@ A decision tree classifier written from scratch in C#, with no external librarie
 
 Because the classes are defined by two simple thresholds, a correct tree should be shallow and score close to 100%.
 
-## Example output
-```
-[Paste your real console output here: depth, node count, accuracies and the printed tree]
-```
-
 ## Using the classifier
 ```csharp
 var tree = new DecisionTreeClass(numClasses: 4, maxDepth: 5, minSamplesSplit: 2, minSamplesLeaf: 1);
